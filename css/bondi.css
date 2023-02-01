@@ -168,11 +168,90 @@ body {
     -o-transform: translateX(0);
 }
 
-/* Styling our-work section */
+/* End Styling our-work section */
 
 /* Styling stuff section */
 .stuff .description {
     max-width: 500px;
 }
 
-/* Styling stuff section */
+/* End Styling stuff section */
+
+/* Styling team section */
+.team {
+    background-color: var(--section-color);
+}
+
+.team h2 {
+    color: var(--golden-color);
+}
+
+.team .box h4 {
+    background-color: var(--green-color);
+}
+
+/* End Styling team section */
+
+/* styling the project section */
+.project {
+    background-color: var(--dark-color);
+}
+
+/* End styling the project section */
+
+/* Styling the subscribe section */
+.subscribe {
+    background-color: var(--golden-color);
+}
+
+.subscribe input[type="email"] {
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.subscribe input[type="email"]:focus {
+    outline: none;
+}
+
+.subscribe ::placeholder {
+    color: white;
+}
+
+.subscribe input[type="submit"] {
+    background-color: var(--dark-color);
+    color: var(--golden-color);
+    width: 100%;
+}
+
+/* End Styling the subscribe section */
+
+/* Styling the footer */
+footer {
+    background-color: var(--dark-color);
+}
+
+footer .copyright>span {
+    color: var(--green-color);
+}
+
+footer .copyright div span {
+    color: var(--golden-color);
+}
+
+footer .facebook {
+    background-color: #1877f2;
+}
+
+footer .twitter {
+    background-color: #1da1f2;
+}
+
+footer .linkedin {
+    background-color: #0077b5;
+}
+
+footer .youtube {
+    background-color: #ff0000;
+}
+
+/* End Styling the footer */
